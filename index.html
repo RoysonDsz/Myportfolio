@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1 class="heading">Welcome to my <span>Portfolio</span></h1>
+        <h3>Hello,It's Me</h3>
+        <h1>Royson Dsouza</h1>
+        <h3>And I'm a <span class="multiple-text">Web Developer</span></h3>
+        <p>Greetings! I'm Royson Dsouza, a 22-year-old individual hailing from the charming town of Belthangady. Currently, I'm deeply immersed in my academic journey, pursuing a Bachelor of Engineering (BE) degree at St. Joseph Engineering College Vamanjoor, Mangalore, with a focus on computer science and engineering.</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/royson-dsouza17" target="_blank" title="LinkedIn">
+            <i class='bx bxl-linkedin'></i>
+          </a>
+          <a href="https://github.com/RoysonDsz" target="_blank" title="GitHub">
+            <i class='bx bxl-github'></i>
+        </div>
+        <a href="Resume_roysonDsouza122.pdf" download class='btn'>Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="images/img-removebg-preview.png" alt="">
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <div id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-photo">
+            <img src="images/canva-removebg-preview.png" alt="Your Photo">
+          </div>
+          <div class="about-details">
+            <h1 class="sub-title">About Me</h1>
+            <p>With an unwavering passion for technology and an insatiable hunger for knowledge, I am driven by the desire to excel in the dynamic and ever-evolving realm of computer science. Beyond the confines of traditional education, I am constantly seeking out opportunities to expand my horizons, challenge my intellect, and contribute meaningfully to the field.</p>
+            <p>Beyond academics, my aspirations extend to securing a challenging position within an organisation that values skill development and offers avenues for making significant contributions. I am dedicated to harnessing my enthusiasm for continuous learning and professional growth, striving to achieve excellence both personally and professionally.</p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" data-tab="skills">Skills</p>
+              <p class="tab-links" data-tab="education">Education</p>
+              <p class="tab-links" data-tab="internships">Internships</p>
+              <p class="tab-links" data-tab="interests">Interests</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Language</span><br>Python, Java</li>
+                <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
+                <li><span>Communication</span><br>Kannada, English</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2025 (Pursuing)</span><br>BE (CSE) from St Joseph Engineering College Mangalore<br>CGPA: 8.36</li>
+                <li><span>2022</span><br>SNM polytechnic Moodbidri<br>Percentage: 82.3%</li>
+                <li><span>2019</span><br>Sacred heart PU college Madanthyar<br>Percentage: 62%</li>
+                <li><span>2017</span><br>Holy Redeemer English medium school Belthangady<br>Percentage: 72.8%</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="internships">
+              <ul>
+                <li><span>Web development Intern</span>, Codelab<br>
+                  Duration: 1 month (virtual)<br>
+                  <p>Acquired practical skills in HTML, CSS, and JavaScript through hands-on projects.</p>
+                </li>
+                <li><span>Business Analytics Intern</span>, SmartInterns<br>
+                  Duration: 1 month (virtual)<br>
+                  <p>Specializing in business analytics, focusing on data analysis using Qlik.</p>
+                  <p>Engaged in real-world projects and training sessions.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="interests">
+              <ul>
+                <li>1. Playing indoor games like Chess</li>
+                <li>2. Machine doctor</li>
+                <li>3. Learning new skills day by day</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio section design -->
+    <div class="portfolio-container">
+      <div id="portfolio">
+        <div class="container">
+          <h1>My Projects</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/portfolio1.jpg" alt="Thermal Analysis of Disk Brake using Ansys">
+              <div class="layer">
+                <h2>Thermal Analysis of Disk Brake using Ansys</h2>
+                <p>It enables engineers to evaluate the impact of temperature on brake performance, ensuring that the brake components remain within safe operating limits and optimizing their design for efficiency and longevity.</p>
+                <!-- <a href="project1 (1).pdf" download class="bttn">Download</a> -->
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/portfolio2.jpg" alt="Vehicle rental Management System">
+              <div class="layer">
+                <h2>Vehicle rental Management System</h2>
+                <p>It provides a user-friendly interface with features for adding Vehicle details and retrieving user information, aiding in Vehicle maintenance.</p>
+                <!-- <a href="project2(2).pdf" download class="bttn">Download</a> -->
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/portfolio3.jpg" alt="Movie Dataset Filtering and Email Distribution Bot">
+              <div class="layer">
+                <h2>Movie Dataset Filtering and Email Distribution Bot</h2>
+                <p>It simplifies movie selection by providing personalized recommendations based on user preferences, leveraging automation to filter and deliver tailored movie lists.</p>
+                <!-- <a href="project3.pdf" download class="bttn">Download</a> -->
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form id="contact-form">
+        <div class="input-box">
+          <input type="text" name="from_name" placeholder="Full Name" required>
+          <input type="email" name="from_email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+          <input type="tel" name="from_phone" placeholder="Mobile Number">
+          <input type="text" name="subject" placeholder="Email Subject" required>
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+    
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>&copy; 2024 Royson Dsouza. All rights reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
